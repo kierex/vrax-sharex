@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# GEH BYPASS MO SAPAKIN KITA E
+# WALANG TANIM TO BAKA MASAPAK KO KAYO!
+# PEACE LANG DAPAT MWA:))
 
 import requests, os, re, sys, json, time, random, datetime
 from datetime import datetime
@@ -90,7 +93,7 @@ def bot():
             "user-agent": ua
         }
 
-        for x in range(jumlah):
+        for x in range(limitasyon):
             n += 1
             post = ses.post(
                 f"https://graph.facebook.com/v13.0/me/feed?link={link}&published=0&access_token={token}",
