@@ -89,7 +89,7 @@ def bot():
         print(color("Wala na expired na cookie mo ugok.", '91'))  # Red
         return login()
 
-    link = input(color("Link postingan: ", '96'))  # Cyan
+    link = input(color("Link ng post mo ugok!: ", '96'))  # Cyan
     try:
         limitasyon = int(input(color("limitasyon ng share: ", '96')))  # Cyan
     except ValueError:
